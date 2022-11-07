@@ -1,7 +1,19 @@
 {
-  "name": "devoir_JS_dynamiser",
+  "name": "devoir_js_dynamiser",
   "version": "1.0.0",
-  "engines": {
-  }
+  "description": "jeu JS",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brouns/StudiDynaJS.git"
+  },
+  "author": "Bruno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brouns/StudiDynaJS/issues"
+  },
+  "homepage": "https://github.com/Brouns/StudiDynaJS#readme"
 }
-
