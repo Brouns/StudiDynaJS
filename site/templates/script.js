@@ -1,10 +1,11 @@
-const canvas = document.getElementById('CanvasNewGame');
+const canvas = document.getElementById('canvasNewGame');
 const roleButton =document.getElementById('rollButton');
 const holdButton =document.getElementById('holdButton');
 const interTextP1 = document.getElementById('interScorePlayer1')
 const interTextP2 = document.getElementById('interScorePlayer2')
 const scoreP1 = document.getElementById('scorePlayer1')
 const scoreP2 = document.getElementById('scorePlayer2')
+const newGameButton = document.getElementById("canvasNewGame")
 let ctx;
 let res=0;
 let resinter=0;
@@ -17,6 +18,7 @@ scoreP2.value=0;
 
 roleButton.addEventListener("click", rollDice)
 holdButton.addEventListener("click", hold)
+newGameButton.addEventListener("click", reset)
 
 if (canvas.getContext) {
     ctx = canvas.getContext('2d') ;
