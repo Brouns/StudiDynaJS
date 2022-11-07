@@ -45,6 +45,7 @@ const p2=document.getElementById('P2');
 let player=1, n;
 initpoints()
 playerpoint()
+displayDice(1)
 
 function rollDice(){
     count =0;
@@ -61,7 +62,6 @@ function rollDice(){
 
 function displayDice(diceResult) {
     const dice = document.getElementById('dice');
-    console.log(diceResult);
     if (dice.getContext) {
         ctx = dice.getContext('2d');
         ctx.clearRect(0, 0, dice.width, dice.height);
@@ -230,6 +230,7 @@ function reset(){
     interTextP2.innerHTML = 0;
     scoreP1.innerHTML = 0;
     scoreP2.innerHTML = 0;
+    displayDice(1)
     if (player == 2){
         changePlayer()
     }
@@ -271,5 +272,6 @@ function sleep(milliseconds) {
         }
     }
 }
+
 const IntermediateScoreP1 =document.getElementById('interScorePlayer1')
 const IntermediateScoreP2 =document.getElementById('interScorePlayer2')
