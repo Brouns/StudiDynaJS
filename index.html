@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #connexion {
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="Board">
+        <div id="BoardLeft"></div>
+        <div id="BoardRight"></div>
+        <div id="ContainerHead">
+            <div id="Head">
+                <canvas id = "CanvasNewGame" width="50" height="50"> </canvas>
+                <p id="NewGameTitle">  New Game</p>
+            </div>
+        </div>
+        <p id="TitlePlayer1" class="TitlePlayer"> PLAYER 1
+            <canvas id="P1" width="20" height="20"></canvas>
+        </p>
+        <p id="TitlePlayer2" class="TitlePlayer"> PLAYER 2
+            <canvas id="P2" width="20" height="20"></canvas>
+        </p>
+        <div id="scoreRow">
+            <span id="scorePlayer1">0 </span>
+            <canvas id="dice" class="Dice"></canvas>
+            <span id="scorePlayer2">0 </span>
+        </div>
+        <div id="currentRow">
+            <div id="scoreInterContainer1">
+                <p class="currentText">CURRENT</p>
+                <span id="interScorePlayer1" >CURRENT</span>
+            </div>
+
+            <button id="rollButton">
+                <img id="imgRollButton" src="double_fleche.jpg" alt="">
+                ROLL DICE
+            </button>
+            <button id="holdButton">
+                <img id="imgholdButton" src="hold.jpg" alt="">
+                HOLD
+            </button>
+            <div id="scoreInterContainer2">
+                <p class="currentText">CURRENT</p>
+                <span id="interScorePlayer2" ></span>
+            </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
