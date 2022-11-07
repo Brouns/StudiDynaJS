@@ -1,6 +1,6 @@
 {
-  "name": "example-app",
-  "description": "a really cool app",
+  "name": "jeu_js",
+  "description": "petit jeu en js",
   "version": "1.0.0",
   "engines": {
     "node": "16.17.1"
