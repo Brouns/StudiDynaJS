@@ -1,10 +1,7 @@
 {
-  "name": "jeu_js",
-  "description": "petit jeu en js",
+  "name": "devoir_js_dynamiser",
   "version": "1.0.0",
-  "engines": {
-    "node": "16.17.1"
-  },
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
